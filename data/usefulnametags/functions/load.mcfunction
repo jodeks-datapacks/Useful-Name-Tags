@@ -1,0 +1,6 @@
+tellraw @a ["",{"text":"Useful Name Tags","color":"blue","clickEvent":{"action":"open_url","value":"https://modrinth.com/project/useful-name-tags"},"hoverEvent":{"action":"show_text","contents":"modrinth.com/project/useful-name-tags"}},{"text":" loaded - ","clickEvent":{"action":"open_url","value":"https://modrinth.com/project/useful-name-tags"},"hoverEvent":{"action":"show_text","contents":"modrinth.com/project/useful-name-tags"}},{"text":"[1.20.5]","color":"green","clickEvent":{"action":"open_url","value":"https://modrinth.com/project/useful-name-tags"},"hoverEvent":{"action":"show_text","contents":"modrinth.com/project/useful-name-tags"}},{"text":" ","clickEvent":{"action":"open_url","value":"https://modrinth.com/project/useful-name-tags"},"hoverEvent":{"action":"show_text","contents":"modrinth.com/project/useful-name-tags"}},{"text":"v.1.1.0","color":"dark_green","clickEvent":{"action":"open_url","value":"https://modrinth.com/project/useful-name-tags"},"hoverEvent":{"action":"show_text","contents":"modrinth.com/project/useful-name-tags"}}]
+
+team add nocollisionteam 
+team modify nocollisionteam collisionRule never
+
+scoreboard objectives add usefulnametags.extreme dummy
